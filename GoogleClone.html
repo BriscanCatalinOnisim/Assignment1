@@ -7,17 +7,21 @@
 
   <body>
     <div class="topnav">
-      <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a>
-      <a href="https://www.google.ro/imghp?hl=en&tab=ri&ogbl">Imagini</a>
-
-      <a href="#about">About</a>
+      <a class="tab" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Gmail</a>
+      <a class="tab" href="https://www.google.ro/imghp?hl=en&tab=ri&ogbl">Imagini</a>
+      <a href="#"><img src="images/tools.png"></a>
+      <a href="#"><img src="images/googleAccount.png" class="account" ></a>
     </div>
 
     <div class="middle-content">
       <div class="center">
         <a id="googleLogo"><img src="images/googlelogo.png"></a>
       </div>
-      <input class="center" type="text" placeholder="Search..">
+      <div class="search">
+        <a class="searchImage"><img src="images/search.png"></a>
+        <input class="round" type="text" placeholder="">
+        <a class="keyword"><img src="images/keyword.png"></a>
+      </div>
       <div class="center">
           <button name="submit" class="action_btn submit" type="submit" value="Save">Google Search</button>
           <button name="submit" class="action_btn cancel" type="submit" value="Cancel">I'm Feeling Lucky</button>
@@ -25,43 +29,29 @@
 
       <div class="center">
           <p>Google offered in:
-            <a>Maghiar</a>
-            <a>Deutsch</a>
+            <a class="tab">Maghiar</a>
+            <a class="tab">Deutsch</a>
           </p>  
       </div>
     </div>
 
     <div class="footer">
       <div class="leftFooter">
-        <a
-          class="para1"
+        <a class="tab"
           href="https://about.google/?utm_source=google-RO&utm_medium=referral&utm_campaign=hp-footer&fg=1"
           >About</a
-        ><a
-          class="para1"
+        ><a class="tab"
           href="https://ads.google.com/intl/ro_ro/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
           >Advertising</a
-        ><a
-          class="para1"
+        ><a class="tab"
           href="https://ads.google.com/intl/ro_ro/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
           >Business</a
-        ><a class="para1" href="https://www.google.com/search/howsearchworks/?fg=1">
-          How Search Works
-        </a>
+        ><a class="tab" href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
       </div>
       <div class="rightFooter">
-        <a
-          class="para2"
-          href="https://policies.google.com/privacy?hl=en-RO&fg=1"
-          >Privacy</a
-        ><a
-          class="para2"
-          href="https://policies.google.com/terms?hl=en-RO&fg=1"
-          >Terms</a
-        ><a
-          class="para2"        
-          >Settings</a
-        >
+        <a class="tab" href="https://policies.google.com/privacy?hl=en-RO&fg=1">Privacy</a>
+        <a class="tab" href="https://policies.google.com/terms?hl=en-RO&fg=1">Terms</a>
+        <a class="tab">Settings</a>
       </div>
     </div>
 
