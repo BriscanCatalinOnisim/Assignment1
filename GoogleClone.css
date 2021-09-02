@@ -2,8 +2,16 @@
     display:flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-top: 310px;
     background:rgba(242,242,242,1);
+}
+
+.footer1 {
+   height: 30px;
+   display:flex;
+   justify-content: space-between;
+   flex-direction: row;
+   margin-top: 250px;
+   background:rgba(242,242,242,1);
 }
 
 .center {
@@ -44,14 +52,18 @@ body div a {
    align-items: flex-end;
 }
 
-.account {
-   border-radius: 50%;
-}
-
 .round {
    height: 30%;
    width: 30%;
    padding-left: 10px;
    padding-right: 10px;
    border: 3px solid black;
+}
+
+.action_btn {
+   display:block;
+   height: 50px;
+   width: 150px;
+   border-radius: 50%;
+   border: 1px solid rgb(201, 193, 193);
 }
